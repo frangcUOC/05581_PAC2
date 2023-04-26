@@ -14,6 +14,7 @@
     <owl:Ontology rdf:about="http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2">
         <terms:creator>Francisco Garcia Caparrós</terms:creator>
         <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
+        <rdfs:label>Title: PAC2 - EX2. Ontologia de vins</rdfs:label>
         <owl:versionInfo>Version release: 1.0</owl:versionInfo>
     </owl:Ontology>
     
