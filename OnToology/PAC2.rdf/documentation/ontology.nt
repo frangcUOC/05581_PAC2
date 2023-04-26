@@ -1,6 +1,7 @@
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2> <http://purl.org/dc/terms/creator> "Francisco Garcia Caparrós" .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2> <http://www.w3.org/2000/01/rdf-schema#label> "Title: PAC2 - EX2. Ontologia de vins" .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2> <http://www.w3.org/2002/07/owl#versionInfo> "Version release: 1.0" .
 # 
 # 
