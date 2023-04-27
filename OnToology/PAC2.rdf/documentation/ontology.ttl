@@ -36,6 +36,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 :hasAcidity rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf :hasWineDescriptor ;
             owl:inverseOf :hasAcidityInv ;
+            rdf:type owl:FunctionalProperty ;
             rdfs:domain :Wine ;
             rdfs:range <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2untitled-ontology-8#WineAcidity> ;
             rdfs:comment "Relation between wine and WineAcidity." .
@@ -53,6 +54,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 :hasAge rdf:type owl:ObjectProperty ;
         rdfs:subPropertyOf :hasWineDescriptor ;
         owl:inverseOf :hasAgeInv ;
+        rdf:type owl:FunctionalProperty ;
         rdfs:domain :Wine ;
         rdfs:range :WineAge ;
         rdfs:comment "Relation between wine and WineAge." .
@@ -70,6 +72,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 :hasBody rdf:type owl:ObjectProperty ;
          rdfs:subPropertyOf :hasWineDescriptor ;
          owl:inverseOf :hasBodyInv ;
+         rdf:type owl:FunctionalProperty ;
          rdfs:domain :Wine ;
          rdfs:range <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2untitled-ontology-8#WineBody> ;
          rdfs:comment "Relation between wine and WineBody." .
@@ -87,6 +90,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 :hasColor rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf :hasWineDescriptor ;
           owl:inverseOf :hasColorInv ;
+          rdf:type owl:FunctionalProperty ;
           rdfs:domain :Wine ;
           rdfs:range <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2untitled-ontology-8#WineColor> ;
           rdfs:comment "Relation between wine and WineColor." .
@@ -167,6 +171,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2#hasRegion
 :hasRegion rdf:type owl:ObjectProperty ;
            owl:inverseOf :hasRegionInv ;
+           rdf:type owl:FunctionalProperty ;
            rdfs:domain :Wine ;
            rdfs:range <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2untitled-ontology-8#Region> ;
            rdfs:comment "Relation between wine and Region." .
@@ -197,6 +202,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2#hasWinery
 :hasWinery rdf:type owl:ObjectProperty ;
            owl:inverseOf :hasWineryInv ;
+           rdf:type owl:FunctionalProperty ;
            rdfs:domain :Wine ;
            rdfs:range <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2untitled-ontology-8#Winery> ;
            rdfs:comment "Relation between wine and winery." .
@@ -540,26 +546,6 @@ owl:sameAs rdf:type owl:ObjectProperty .
 :Wine rdf:type owl:Class ;
       owl:equivalentClass [ rdf:type owl:Restriction ;
                             owl:onProperty :hasRatingValue ;
-                            owl:someValuesFrom xsd:double
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasReviews ;
-                            owl:someValuesFrom xsd:integer
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasWineName ;
-                            owl:someValuesFrom xsd:string
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasWinePrice ;
-                            owl:someValuesFrom xsd:double
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasWineYear ;
-                            owl:someValuesFrom xsd:integer
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasRatingValue ;
                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                             owl:onDataRange xsd:double
                           ] ,
@@ -584,42 +570,6 @@ owl:sameAs rdf:type owl:ObjectProperty .
                             owl:onDataRange xsd:integer
                           ] ;
       rdfs:subClassOf [ rdf:type owl:Restriction ;
-                        owl:onProperty :hasAcidity ;
-                        owl:someValuesFrom <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2untitled-ontology-8#WineAcidity>
-                      ] ,
-                      [ rdf:type owl:Restriction ;
-                        owl:onProperty :hasAge ;
-                        owl:someValuesFrom :WineAge
-                      ] ,
-                      [ rdf:type owl:Restriction ;
-                        owl:onProperty :hasBody ;
-                        owl:someValuesFrom <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2untitled-ontology-8#WineBody>
-                      ] ,
-                      [ rdf:type owl:Restriction ;
-                        owl:onProperty :hasColor ;
-                        owl:someValuesFrom <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2untitled-ontology-8#WineColor>
-                      ] ,
-                      [ rdf:type owl:Restriction ;
-                        owl:onProperty :hasNumReviews ;
-                        owl:someValuesFrom <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2untitled-ontology-8#NumReviews>
-                      ] ,
-                      [ rdf:type owl:Restriction ;
-                        owl:onProperty :hasPrice ;
-                        owl:someValuesFrom :WinePrice
-                      ] ,
-                      [ rdf:type owl:Restriction ;
-                        owl:onProperty :hasRegion ;
-                        owl:someValuesFrom <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2untitled-ontology-8#Region>
-                      ] ,
-                      [ rdf:type owl:Restriction ;
-                        owl:onProperty :hasWinery ;
-                        owl:someValuesFrom <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2untitled-ontology-8#Winery>
-                      ] ,
-                      [ rdf:type owl:Restriction ;
-                        owl:onProperty :hasRating ;
-                        owl:allValuesFrom :Rating
-                      ] ,
-                      [ rdf:type owl:Restriction ;
                         owl:onProperty :hasAcidity ;
                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                         owl:onClass <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2untitled-ontology-8#WineAcidity>
@@ -730,10 +680,6 @@ owl:sameAs rdf:type owl:ObjectProperty .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2untitled-ontology-8#Region> rdf:type owl:Class ;
                                                                                        owl:equivalentClass [ rdf:type owl:Restriction ;
                                                                                                              owl:onProperty :hasWineRegionName ;
-                                                                                                             owl:someValuesFrom xsd:string
-                                                                                                           ] ,
-                                                                                                           [ rdf:type owl:Restriction ;
-                                                                                                             owl:onProperty :hasWineRegionName ;
                                                                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                                              owl:onDataRange xsd:string
                                                                                                            ] ;
@@ -801,10 +747,6 @@ owl:sameAs rdf:type owl:ObjectProperty .
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2untitled-ontology-8#Winery
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2untitled-ontology-8#Winery> rdf:type owl:Class ;
                                                                                        owl:equivalentClass [ rdf:type owl:Restriction ;
-                                                                                                             owl:onProperty :hasWineryName ;
-                                                                                                             owl:someValuesFrom xsd:string
-                                                                                                           ] ,
-                                                                                                           [ rdf:type owl:Restriction ;
                                                                                                              owl:onProperty :hasWineryName ;
                                                                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                                              owl:onDataRange xsd:string
@@ -885,7 +827,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
                            :Wine ;
                   :hasAcidity :Delicate ;
                   :hasAge :BigReserve ;
-                  :hasBody :Full ;
+                  :hasBody :Medium ;
                   :hasColor :Red ;
                   :hasRegion :Montilla-Moriles ;
                   :hasWinery :Toro_Albala ;
@@ -1271,54 +1213,6 @@ owl:Thing rdfs:comment "Author: Francisco García Caparós" ;
 <urn:swrl:var#r> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
 
 <urn:swrl:var#rv> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasWinePrice ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w> ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#p>
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
-                                                                  <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
-                                                                                                               rdf:first <urn:swrl:var#p> ;
-                                                                                                               rdf:rest [ rdf:type rdf:List ;
-                                                                                                                          rdf:first 100 ;
-                                                                                                                          rdf:rest rdf:nil
-                                                                                                                        ]
-                                                                                                             ]
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThanOrEqual> ;
-                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
-                                                                                                                          rdf:first <urn:swrl:var#p> ;
-                                                                                                                          rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                     rdf:first 300 ;
-                                                                                                                                     rdf:rest rdf:nil
-                                                                                                                                   ]
-                                                                                                                        ]
-                                                                           ] ;
-                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                                        <http://www.w3.org/2003/11/swrl#classPredicate> :Wine ;
-                                                                                        <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w>
-                                                                                      ] ;
-                                                                            rdf:rest rdf:nil
-                                                                          ]
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Expensive ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w>
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
 
 [ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
    <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
@@ -1932,6 +1826,54 @@ owl:Thing rdfs:comment "Author: Francisco García Caparós" ;
    <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
                                                        <http://www.w3.org/2003/11/swrl#classPredicate> :Cheap ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasWinePrice ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#p>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
+                                                                  <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                               rdf:first <urn:swrl:var#p> ;
+                                                                                                               rdf:rest [ rdf:type rdf:List ;
+                                                                                                                          rdf:first 100 ;
+                                                                                                                          rdf:rest rdf:nil
+                                                                                                                        ]
+                                                                                                             ]
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThanOrEqual> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#p> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 300 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#classPredicate> :Wine ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w>
+                                                                                      ] ;
+                                                                            rdf:rest rdf:nil
+                                                                          ]
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Expensive ;
                                                        <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w>
                                                      ] ;
                                            rdf:rest rdf:nil
