@@ -315,8 +315,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Cava
 :Cava rdf:type owl:Class ;
       rdfs:subClassOf :NotClassified ;
-      rdfs:comment "Cava wine" ;
-      rdfs:label "Cava" .
+      rdfs:comment "Cava wine" .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Chardonnay
@@ -478,7 +477,6 @@ owl:sameAs rdf:type owl:ObjectProperty .
                           owl:allValuesFrom :Wine
                         ] ;
         rdfs:comment "Wine's region" ;
-        rdfs:label "Region" ;
         rdfs:sameAs "https://dbpedia.org/page/Category:Wine_regions_of_Spain" .
 
 
