@@ -213,13 +213,13 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
            owl:inverseOf :hasWineryInv ;
            rdf:type owl:FunctionalProperty ;
            rdfs:domain :Wine ;
-           rdfs:range <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery> ;
+           rdfs:range :Winery ;
            rdfs:comment "Relation between wine and winery." .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineryInv
 :hasWineryInv rdf:type owl:ObjectProperty ;
-              rdfs:domain <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery> ;
+              rdfs:domain :Winery ;
               rdfs:range :Wine ;
               rdfs:comment "Invese relation between wine and winery." .
 
@@ -276,7 +276,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineryName
 :hasWineryName rdf:type owl:DatatypeProperty ;
-               rdfs:domain <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery> ;
+               rdfs:domain :Winery ;
                rdfs:range xsd:string ;
                rdfs:comment "Name of the winery. It is a string." .
 
@@ -677,7 +677,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
                       [ rdf:type owl:Restriction ;
                         owl:onProperty :hasWinery ;
                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                        owl:onClass <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery>
+                        owl:onClass :Winery
                       ] ;
       rdfs:comment "Wine's general class" .
 
@@ -747,18 +747,18 @@ owl:sameAs rdf:type owl:ObjectProperty .
            rdfs:comment "Defines the acidity and body of the wine" .
 
 
-###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery> rdf:type owl:Class ;
-                                                                                             owl:equivalentClass [ rdf:type owl:Restriction ;
-                                                                                                                   owl:onProperty :hasWineryName ;
-                                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                                   owl:onDataRange xsd:string
-                                                                                                                 ] ;
-                                                                                             rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                               owl:onProperty :hasWineryInv ;
-                                                                                                               owl:allValuesFrom :Wine
-                                                                                                             ] ;
-                                                                                             rdfs:comment "The winery of the wine" .
+###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery
+:Winery rdf:type owl:Class ;
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasWineryName ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:string
+                            ] ;
+        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasWineryInv ;
+                          owl:allValuesFrom :Wine
+                        ] ;
+        rdfs:comment "The winery of the wine" .
 
 
 #################################################################
@@ -820,7 +820,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Descendientes_de_J._Palacios
 :Descendientes_de_J._Palacios rdf:type owl:NamedIndividual ,
-                                       <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery> ;
+                                       :Winery ;
                               :hasWineryName "Descendientes de J. Palacios" .
 
 
@@ -897,7 +897,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Inurrieta
 :Inurrieta rdf:type owl:NamedIndividual ,
-                    <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery> ;
+                    :Winery ;
            :hasWineryName "Inurrieta" .
 
 
@@ -940,7 +940,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Marques_de_Riscal
 :Marques_de_Riscal rdf:type owl:NamedIndividual ,
-                            <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery> ;
+                            :Winery ;
                    :hasWineryName "Marques de Riscal" .
 
 
@@ -978,7 +978,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Ramon_do_Casar
 :Ramon_do_Casar rdf:type owl:NamedIndividual ,
-                         <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery> ;
+                         :Winery ;
                 :hasWineryName "Ramon do Casar" .
 
 
@@ -1039,13 +1039,13 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Tarsus
 :Tarsus rdf:type owl:NamedIndividual ,
-                 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery> ;
+                 :Winery ;
         :hasWineryName "Tarsus" .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Toro_Albala
 :Toro_Albala rdf:type owl:NamedIndividual ,
-                      <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery> ;
+                      :Winery ;
              :hasWineryName "Toro Albala" .
 
 
@@ -1087,7 +1087,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Vinos_Sanz
 :Vinos_Sanz rdf:type owl:NamedIndividual ,
-                     <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery> ;
+                     :Winery ;
             :hasWineryName "Vivos Sanz" .
 
 

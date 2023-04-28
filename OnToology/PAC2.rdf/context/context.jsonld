@@ -40,7 +40,7 @@
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "Winery" : {
-      "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"
+      "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"
     },
     "WineTaste" : {
       "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineTaste"
