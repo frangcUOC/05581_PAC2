@@ -7,7 +7,6 @@
 @base <https://w3id.org/def/frangcPAC2#> .
 
 <https://w3id.org/def/frangcPAC2> rdf:type owl:Ontology ;
-                                   owl:versionIRI <https://w3id.org/def/frangcPAC2> ;
                                    <http://purl.org/dc/elements/1.1/title> "PAC2 - EX2. Ontologia de vins" ;
                                    <http://purl.org/dc/terms/creator> "Francisco Garcia Caparrós" ;
                                    <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-nd/3.0/es/> ;

@@ -12,7 +12,6 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:frangcPAC2="https://w3id.org/def/frangcPAC2#">
     <owl:Ontology rdf:about="https://w3id.org/def/frangcPAC2">
-        <owl:versionIRI rdf:resource="https://w3id.org/def/frangcPAC2"/>
         <dc:title>PAC2 - EX2. Ontologia de vins</dc:title>
         <terms:creator>Francisco Garcia Caparrós</terms:creator>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/es/"/>
