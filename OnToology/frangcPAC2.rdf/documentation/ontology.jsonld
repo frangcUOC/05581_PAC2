@@ -1624,9 +1624,6 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Cava wine"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Cava"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NotClassified"
   } ]
@@ -2176,9 +2173,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Wine's region"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Region"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
     "@value" : "https://dbpedia.org/page/Category:Wine_regions_of_Spain"

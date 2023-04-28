@@ -512,7 +512,6 @@
     <owl:Class rdf:about="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Cava">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NotClassified"/>
         <rdfs:comment>Cava wine</rdfs:comment>
-        <rdfs:label>Cava</rdfs:label>
     </owl:Class>
     
 
@@ -786,7 +785,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Wine&apos;s region</rdfs:comment>
-        <rdfs:label>Region</rdfs:label>
         <rdfs:sameAs>https://dbpedia.org/page/Category:Wine_regions_of_Spain</rdfs:sameAs>
     </owl:Class>
     

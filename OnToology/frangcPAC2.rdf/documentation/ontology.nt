@@ -287,7 +287,6 @@
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Cava> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Cava> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NotClassified> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Cava> <http://www.w3.org/2000/01/rdf-schema#comment> "Cava wine" .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Cava> <http://www.w3.org/2000/01/rdf-schema#label> "Cava" .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Chardonnay
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Chardonnay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -424,7 +423,6 @@ _:genid6 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.o
 _:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegionInv> .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine's region" .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> <http://www.w3.org/2000/01/rdf-schema#label> "Region" .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Category:Wine_regions_of_Spain" .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Regular
