@@ -1,0 +1,330 @@
+{
+  "@context" : {
+    "WineColor" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#WineColor"
+    },
+    "ToroRed" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#ToroRed"
+    },
+    "hasPrice" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasPrice",
+      "@type" : "@id"
+    },
+    "BigReserve" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#BigReserve"
+    },
+    "hasAgeInv" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasAgeInv",
+      "@type" : "@id"
+    },
+    "hasBodyInv" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasBodyInv",
+      "@type" : "@id"
+    },
+    "hasRatings" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasRatings",
+      "@type" : "@id"
+    },
+    "CabernetSauvignon" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#CabernetSauvignon"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "hasRating" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasRating",
+      "@type" : "@id"
+    },
+    "hasWineName" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasWineName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Winery" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Winery"
+    },
+    "WineTaste" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#WineTaste"
+    },
+    "hasWineRegionName" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasWineRegionName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "license" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#license"
+    },
+    "Expensive" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Expensive"
+    },
+    "Reserve" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Reserve"
+    },
+    "Aging" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Aging"
+    },
+    "hasWinery" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasWinery",
+      "@type" : "@id"
+    },
+    "hasRatingsInv" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasRatingsInv",
+      "@type" : "@id"
+    },
+    "Mencia" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Mencia"
+    },
+    "VeryExpensive" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#VeryExpensive"
+    },
+    "hasReviews" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasReviews",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasWineryInv" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasWineryInv",
+      "@type" : "@id"
+    },
+    "Regular" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Regular"
+    },
+    "Syrah" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Syrah"
+    },
+    "hasWineDescriptor" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasWineDescriptor",
+      "@type" : "@id"
+    },
+    "Medium" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Medium"
+    },
+    "hasNumReviews" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasNumReviews",
+      "@type" : "@id"
+    },
+    "hasAcidityInv" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasAcidityInv",
+      "@type" : "@id"
+    },
+    "WineRating" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#WineRating"
+    },
+    "Superb" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Superb"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "PedroXimenez" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#PedroXimenez"
+    },
+    "RiojaRed" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#RiojaRed"
+    },
+    "hasWineDescInv" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasWineDescInv",
+      "@type" : "@id"
+    },
+    "hasColor" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasColor",
+      "@type" : "@id"
+    },
+    "hasAcidity" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasAcidity",
+      "@type" : "@id"
+    },
+    "Light" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Light"
+    },
+    "hasPriceInv" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasPriceInv",
+      "@type" : "@id"
+    },
+    "VeryGood" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#VeryGood"
+    },
+    "White" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#White"
+    },
+    "Good" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Good"
+    },
+    "Moderate" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Moderate"
+    },
+    "MontsantRed" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#MontsantRed"
+    },
+    "Unknown" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Unknown"
+    },
+    "Excellent" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Excellent"
+    },
+    "hasRatingValue" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasRatingValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hasAge" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasAge",
+      "@type" : "@id"
+    },
+    "hasWinePrice" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasWinePrice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "Monastrell" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Monastrell"
+    },
+    "hasRegionInv" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasRegionInv",
+      "@type" : "@id"
+    },
+    "Sherry" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Sherry"
+    },
+    "Grenache" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Grenache"
+    },
+    "hasBody" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasBody",
+      "@type" : "@id"
+    },
+    "hasWineYear" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasWineYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "RiojaWhite" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#RiojaWhite"
+    },
+    "NotSpecified" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#NotSpecified"
+    },
+    "SauvignonBlanc" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#SauvignonBlanc"
+    },
+    "Rating" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Rating"
+    },
+    "hasColorInv" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasColorInv",
+      "@type" : "@id"
+    },
+    "Classic" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Classic"
+    },
+    "Red" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Red"
+    },
+    "WhiteWine" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#WhiteWine"
+    },
+    "Viral" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Viral"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "Tempranillo" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Tempranillo"
+    },
+    "hasRatingInv" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasRatingInv",
+      "@type" : "@id"
+    },
+    "Full" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Full"
+    },
+    "WineAcidity" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#WineAcidity"
+    },
+    "PrioratRed" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#PrioratRed"
+    },
+    "Acceptable" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Acceptable"
+    },
+    "Verdejo" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Verdejo"
+    },
+    "WineAge" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#WineAge"
+    },
+    "NotClassified" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#NotClassified"
+    },
+    "Cheap" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Cheap"
+    },
+    "WineDescriptor" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#WineDescriptor"
+    },
+    "hasWineryName" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasWineryName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "WinePrice" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#WinePrice"
+    },
+    "RiberaDelDueroRed" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#RiberaDelDueroRed"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "Static" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Static"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "NumReviews" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#NumReviews"
+    },
+    "Trending" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Trending"
+    },
+    "hasRegion" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasRegion",
+      "@type" : "@id"
+    },
+    "Sparkling" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Sparkling"
+    },
+    "Cava" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Cava"
+    },
+    "Region" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Region"
+    },
+    "Delicate" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Delicate"
+    },
+    "Chardonnay" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Chardonnay"
+    },
+    "hasNumReviewsInv" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#hasNumReviewsInv",
+      "@type" : "@id"
+    },
+    "Albarino" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Albarino"
+    },
+    "WineBody" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#WineBody"
+    },
+    "Strong" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Strong"
+    },
+    "RedWine" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#RedWine"
+    },
+    "NA" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#NA"
+    },
+    "Wine" : {
+      "@id" : "https://w3id.org/def/frangcPAC2#Wine"
+    }
+  }
+}
