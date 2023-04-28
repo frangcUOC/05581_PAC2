@@ -12,7 +12,7 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2">
-        <dc:title>Title: PAC2 - EX2. Ontologia de vins</dc:title>
+        <dc:title>PAC2 - EX2. Ontologia de vins</dc:title>
         <terms:creator>Francisco Garcia Caparrós</terms:creator>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/es/"/>
         <owl:versionInfo>Version release: 1.0</owl:versionInfo>
