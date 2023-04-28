@@ -1484,6 +1484,9 @@
     "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
   } ]
 }, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -1492,14 +1495,14 @@
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "Title: PAC2 - EX2. Ontologia de vins"
+  } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Francisco Garcia Caparrós"
   } ],
   "http://purl.org/dc/terms/license" : [ {
-    "@value" : "https://creativecommons.org/licenses/by/4.0/"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Title: PAC2 - EX2. Ontologia de vins"
+    "@id" : "https://creativecommons.org/licenses/by-nd/3.0/es/"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "Version release: 1.0"
@@ -3085,6 +3088,9 @@
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid27"
   } ]
+}, {
+  "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
