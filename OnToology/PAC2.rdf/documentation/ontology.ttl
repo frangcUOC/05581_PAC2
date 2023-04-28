@@ -47,14 +47,14 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
             owl:inverseOf :hasAcidityInv ;
             rdf:type owl:FunctionalProperty ;
             rdfs:domain :Wine ;
-            rdfs:range <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> ;
+            rdfs:range :WineAcidity ;
             rdfs:comment "Relation between wine and WineAcidity." .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidityInv
 :hasAcidityInv rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf :hasWineDescInv ;
-               rdfs:domain <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> ;
+               rdfs:domain :WineAcidity ;
                rdfs:range :Wine ;
                rdfs:comment "Inverse relation between wine and WineAcidity." .
 
@@ -83,14 +83,14 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
          owl:inverseOf :hasBodyInv ;
          rdf:type owl:FunctionalProperty ;
          rdfs:domain :Wine ;
-         rdfs:range <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> ;
+         rdfs:range :WineBody ;
          rdfs:comment "Relation between wine and WineBody." .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBodyInv
 :hasBodyInv rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf :hasWineDescInv ;
-            rdfs:domain <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> ;
+            rdfs:domain :WineBody ;
             rdfs:range :Wine ;
             rdfs:comment "Inverse relation between wine and WineBody." .
 
@@ -101,14 +101,14 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
           owl:inverseOf :hasColorInv ;
           rdf:type owl:FunctionalProperty ;
           rdfs:domain :Wine ;
-          rdfs:range <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> ;
+          rdfs:range :WineColor ;
           rdfs:comment "Relation between wine and WineColor." .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColorInv
 :hasColorInv rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf :hasWineDescInv ;
-             rdfs:domain <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> ;
+             rdfs:domain :WineColor ;
              rdfs:range :Wine ;
              rdfs:comment "Inverse relation between wine and WineColor." .
 
@@ -118,14 +118,14 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
                rdfs:subPropertyOf :hasRatings ;
                owl:inverseOf :hasNumReviewsInv ;
                rdfs:domain :Wine ;
-               rdfs:range <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> ;
+               rdfs:range :NumReviews ;
                rdfs:comment "Relation between wine and NumReviews." .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviewsInv
 :hasNumReviewsInv rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf :hasRatingsInv ;
-                  rdfs:domain <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> ;
+                  rdfs:domain :NumReviews ;
                   rdfs:range :Wine ;
                   rdfs:comment "Inverse relation between wine and NumReviews." .
 
@@ -166,13 +166,13 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 :hasRatings rdf:type owl:ObjectProperty ;
             owl:inverseOf :hasRatingsInv ;
             rdfs:domain :Wine ;
-            rdfs:range <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating> ;
+            rdfs:range :WineRating ;
             rdfs:comment "Relation between wine and WineRating." .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingsInv
 :hasRatingsInv rdf:type owl:ObjectProperty ;
-               rdfs:domain <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating> ;
+               rdfs:domain :WineRating ;
                rdfs:range :Wine ;
                rdfs:comment "Inverse relation between wine and WineRating." .
 
@@ -182,13 +182,13 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
            owl:inverseOf :hasRegionInv ;
            rdf:type owl:FunctionalProperty ;
            rdfs:domain :Wine ;
-           rdfs:range <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> ;
+           rdfs:range :Region ;
            rdfs:comment "Relation between wine and Region." .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegionInv
 :hasRegionInv rdf:type owl:ObjectProperty ;
-              rdfs:domain <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> ;
+              rdfs:domain :Region ;
               rdfs:range :Wine ;
               rdfs:comment "Inverse relation between wine and Region." .
 
@@ -196,7 +196,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescInv
 :hasWineDescInv rdf:type owl:ObjectProperty ;
                 owl:inverseOf :hasWineDescriptor ;
-                rdfs:domain <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor> ;
+                rdfs:domain :WineDescriptor ;
                 rdfs:range :Wine ;
                 rdfs:comment "Inverse relation between wine and WineDescriptor." .
 
@@ -204,7 +204,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescriptor
 :hasWineDescriptor rdf:type owl:ObjectProperty ;
                    rdfs:domain :Wine ;
-                   rdfs:range <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor> ;
+                   rdfs:range :WineDescriptor ;
                    rdfs:comment "Relation between wine and WineDescriptor." .
 
 
@@ -262,7 +262,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName
 :hasWineRegionName rdf:type owl:DatatypeProperty ;
-                   rdfs:domain <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> ;
+                   rdfs:domain :Region ;
                    rdfs:range xsd:string ;
                    rdfs:comment "Winery region name. It is a string." .
 
@@ -335,6 +335,11 @@ owl:sameAs rdf:type owl:ObjectProperty .
          rdfs:subClassOf :Rating .
 
 
+###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Delicate
+:Delicate rdf:type owl:Class ;
+          rdfs:subClassOf :WineAcidity .
+
+
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Excellent
 :Excellent rdf:type owl:Class ;
            rdfs:subClassOf :Rating .
@@ -343,6 +348,11 @@ owl:sameAs rdf:type owl:ObjectProperty .
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Expensive
 :Expensive rdf:type owl:Class ;
            rdfs:subClassOf :WinePrice .
+
+
+###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Full
+:Full rdf:type owl:Class ;
+      rdfs:subClassOf :WineBody .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Good
@@ -356,10 +366,25 @@ owl:sameAs rdf:type owl:ObjectProperty .
           rdfs:comment "Grenache wine" .
 
 
+###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Light
+:Light rdf:type owl:Class ;
+       rdfs:subClassOf :WineBody .
+
+
+###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Medium
+:Medium rdf:type owl:Class ;
+        rdfs:subClassOf :WineBody .
+
+
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Mencia
 :Mencia rdf:type owl:Class ;
         rdfs:subClassOf :RedWine ;
         rdfs:comment "Mencia wine" .
+
+
+###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Moderate
+:Moderate rdf:type owl:Class ;
+          rdfs:subClassOf :WineAcidity .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Monastrell
@@ -376,7 +401,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NA
 :NA rdf:type owl:Class ;
-    rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> .
+    rdfs:subClassOf :WineColor .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NotClassified
@@ -391,7 +416,17 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NotSpecified
 :NotSpecified rdf:type owl:Class ;
-              rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> .
+              rdfs:subClassOf :WineBody .
+
+
+###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews
+:NumReviews rdf:type owl:Class ;
+            rdfs:subClassOf :WineRating ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasNumReviewsInv ;
+                              owl:allValuesFrom :Wine
+                            ] ;
+            rdfs:comment "Number of reviews of the wine classified by its corresponent category" .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#PedroXimenez
@@ -408,7 +443,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rating
 :Rating rdf:type owl:Class ;
-        rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating> ,
+        rdfs:subClassOf :WineRating ,
                         [ rdf:type owl:Restriction ;
                           owl:onProperty :hasRatingInv ;
                           owl:allValuesFrom :Wine
@@ -418,7 +453,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Red
 :Red rdf:type owl:Class ;
-     rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> .
+     rdfs:subClassOf :WineColor .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#RedWine
@@ -429,6 +464,22 @@ owl:sameAs rdf:type owl:ObjectProperty .
                            owl:allValuesFrom :Red
                          ] ;
          rdfs:comment "Red wine." .
+
+
+###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region
+:Region rdf:type owl:Class ;
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasWineRegionName ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:string
+                            ] ;
+        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasRegionInv ;
+                          owl:allValuesFrom :Wine
+                        ] ;
+        rdfs:comment "Wine's region" ;
+        rdfs:label "Region" ;
+        rdfs:sameAs "https://dbpedia.org/page/Category:Wine_regions_of_Spain" .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Regular
@@ -479,7 +530,12 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Static
 :Static rdf:type owl:Class ;
-        rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> .
+        rdfs:subClassOf :NumReviews .
+
+
+###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Strong
+:Strong rdf:type owl:Class ;
+        rdfs:subClassOf :WineAcidity .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Superb
@@ -507,12 +563,12 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Trending
 :Trending rdf:type owl:Class ;
-          rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> .
+          rdfs:subClassOf :NumReviews .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Unknown
 :Unknown rdf:type owl:Class ;
-         rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> .
+         rdfs:subClassOf :WineAcidity .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Verdejo
@@ -533,12 +589,12 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Viral
 :Viral rdf:type owl:Class ;
-       rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> .
+       rdfs:subClassOf :NumReviews .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#White
 :White rdf:type owl:Class ;
-       rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> .
+       rdfs:subClassOf :WineColor .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WhiteWine
@@ -581,7 +637,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
       rdfs:subClassOf [ rdf:type owl:Restriction ;
                         owl:onProperty :hasAcidity ;
                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                        owl:onClass <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity>
+                        owl:onClass :WineAcidity
                       ] ,
                       [ rdf:type owl:Restriction ;
                         owl:onProperty :hasAge ;
@@ -591,17 +647,17 @@ owl:sameAs rdf:type owl:ObjectProperty .
                       [ rdf:type owl:Restriction ;
                         owl:onProperty :hasBody ;
                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                        owl:onClass <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody>
+                        owl:onClass :WineBody
                       ] ,
                       [ rdf:type owl:Restriction ;
                         owl:onProperty :hasColor ;
                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                        owl:onClass <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor>
+                        owl:onClass :WineColor
                       ] ,
                       [ rdf:type owl:Restriction ;
                         owl:onProperty :hasNumReviews ;
                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                        owl:onClass <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews>
+                        owl:onClass :NumReviews
                       ] ,
                       [ rdf:type owl:Restriction ;
                         owl:onProperty :hasPrice ;
@@ -616,7 +672,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
                       [ rdf:type owl:Restriction ;
                         owl:onProperty :hasRegion ;
                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                        owl:onClass <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region>
+                        owl:onClass :Region
                       ] ,
                       [ rdf:type owl:Restriction ;
                         owl:onProperty :hasWinery ;
@@ -626,14 +682,49 @@ owl:sameAs rdf:type owl:ObjectProperty .
       rdfs:comment "Wine's general class" .
 
 
+###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity
+:WineAcidity rdf:type owl:Class ;
+             rdfs:subClassOf :WineTaste ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :hasAcidityInv ;
+                               owl:allValuesFrom :Wine
+                             ] ;
+             rdfs:comment "Defines the acidity of the wine" .
+
+
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAge
 :WineAge rdf:type owl:Class ;
-         rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor> ,
+         rdfs:subClassOf :WineDescriptor ,
                          [ rdf:type owl:Restriction ;
                            owl:onProperty :hasAgeInv ;
                            owl:allValuesFrom :Wine
                          ] ;
          rdfs:comment "Defines the age of the wine" .
+
+
+###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody
+:WineBody rdf:type owl:Class ;
+          rdfs:subClassOf :WineTaste ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasBodyInv ;
+                            owl:allValuesFrom :Wine
+                          ] ;
+          rdfs:comment "Defines the body of the wine" .
+
+
+###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor
+:WineColor rdf:type owl:Class ;
+           rdfs:subClassOf :WineDescriptor ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasColorInv ;
+                             owl:allValuesFrom :Wine
+                           ] ;
+           rdfs:comment "Defines the color of the wine" .
+
+
+###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineDescriptor
+:WineDescriptor rdf:type owl:Class ;
+                rdfs:comment "General chass that defines age, color and taste" .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WinePrice
@@ -645,112 +736,15 @@ owl:sameAs rdf:type owl:ObjectProperty .
            rdfs:comment "Wine's price" .
 
 
-###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Delicate
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Delicate> rdf:type owl:Class ;
-                                                                                               rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> ;
-                                                                                               rdfs:comment "Delicate acidity" .
+###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineRating
+:WineRating rdf:type owl:Class ;
+            rdfs:comment "Wine's rating" .
 
 
-###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Full
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Full> rdf:type owl:Class ;
-                                                                                           rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> ;
-                                                                                           rdfs:comment "Wine body full classification" .
-
-
-###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Light
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Light> rdf:type owl:Class ;
-                                                                                            rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> ;
-                                                                                            rdfs:comment "Wine body light classification" .
-
-
-###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Medium
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Medium> rdf:type owl:Class ;
-                                                                                             rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> ;
-                                                                                             rdfs:comment "Wine body medium classification" .
-
-
-###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Moderate
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Moderate> rdf:type owl:Class ;
-                                                                                               rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> ;
-                                                                                               rdfs:comment "Moderate acidity" .
-
-
-###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> rdf:type owl:Class ;
-                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating> ,
-                                                                                                                 [ rdf:type owl:Restriction ;
-                                                                                                                   owl:onProperty :hasNumReviewsInv ;
-                                                                                                                   owl:allValuesFrom :Wine
-                                                                                                                 ] ;
-                                                                                                 rdfs:comment "Number of reviews of the wine classified by its corresponent category" .
-
-
-###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> rdf:type owl:Class ;
-                                                                                             owl:equivalentClass [ rdf:type owl:Restriction ;
-                                                                                                                   owl:onProperty :hasWineRegionName ;
-                                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                                   owl:onDataRange xsd:string
-                                                                                                                 ] ;
-                                                                                             rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                               owl:onProperty :hasRegionInv ;
-                                                                                                               owl:allValuesFrom :Wine
-                                                                                                             ] ;
-                                                                                             rdfs:comment "Wine's region" ;
-                                                                                             rdfs:label "Region" ;
-                                                                                             rdfs:sameAs "https://dbpedia.org/page/Category:Wine_regions_of_Spain" .
-
-
-###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Strong
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Strong> rdf:type owl:Class ;
-                                                                                             rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> ;
-                                                                                             rdfs:comment "Strong acidity" .
-
-
-###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> rdf:type owl:Class ;
-                                                                                                  rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineTaste> ,
-                                                                                                                  [ rdf:type owl:Restriction ;
-                                                                                                                    owl:onProperty :hasAcidityInv ;
-                                                                                                                    owl:allValuesFrom :Wine
-                                                                                                                  ] ;
-                                                                                                  rdfs:comment "Defines the acidity of the wine" .
-
-
-###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> rdf:type owl:Class ;
-                                                                                               rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineTaste> ,
-                                                                                                               [ rdf:type owl:Restriction ;
-                                                                                                                 owl:onProperty :hasBodyInv ;
-                                                                                                                 owl:allValuesFrom :Wine
-                                                                                                               ] ;
-                                                                                               rdfs:comment "Defines the body of the wine" .
-
-
-###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> rdf:type owl:Class ;
-                                                                                                rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor> ,
-                                                                                                                [ rdf:type owl:Restriction ;
-                                                                                                                  owl:onProperty :hasColorInv ;
-                                                                                                                  owl:allValuesFrom :Wine
-                                                                                                                ] ;
-                                                                                                rdfs:comment "Defines the color of the wine" .
-
-
-###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor> rdf:type owl:Class ;
-                                                                                                     rdfs:comment "General chass that defines age, color and taste" .
-
-
-###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating> rdf:type owl:Class ;
-                                                                                                 rdfs:comment "Wine's rating" .
-
-
-###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineTaste
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineTaste> rdf:type owl:Class ;
-                                                                                                rdfs:subClassOf <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor> ;
-                                                                                                rdfs:comment "Defines the acidity and body of the wine" .
+###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineTaste
+:WineTaste rdf:type owl:Class ;
+           rdfs:subClassOf :WineDescriptor ;
+           rdfs:comment "Defines the acidity and body of the wine" .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery
@@ -800,7 +794,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Bierzo
 :Bierzo rdf:type owl:NamedIndividual ,
-                 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> ;
+                 :Region ;
         :hasWineRegionName "Bierzo" .
 
 
@@ -821,7 +815,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Delicate
 :Delicate rdf:type owl:NamedIndividual ,
-                   <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> .
+                   :WineAcidity .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Descendientes_de_J._Palacios
@@ -893,7 +887,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Full
 :Full rdf:type owl:NamedIndividual ,
-               <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> .
+               :WineBody .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Good
@@ -941,7 +935,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Light
 :Light rdf:type owl:NamedIndividual ,
-                <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> .
+                :WineBody .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Marques_de_Riscal
@@ -952,28 +946,28 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Medium
 :Medium rdf:type owl:NamedIndividual ,
-                 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> .
+                 :WineBody .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Moderate
 :Moderate rdf:type owl:NamedIndividual ,
-                   <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> .
+                   :WineAcidity .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Montilla-Moriles
 :Montilla-Moriles rdf:type owl:NamedIndividual ,
-                           <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> ;
+                           :Region ;
                   :hasWineRegionName "Montilla-Moriles" .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NA
 :NA rdf:type owl:NamedIndividual ,
-             <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> .
+             :WineColor .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Navarra
 :Navarra rdf:type owl:NamedIndividual ,
-                  <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> ;
+                  :Region ;
          :hasWineRegionName "Navarra" .
 
 
@@ -990,7 +984,7 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Red
 :Red rdf:type owl:NamedIndividual ,
-              <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> .
+              :WineColor .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Regular
@@ -1005,37 +999,37 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Ribeiro
 :Ribeiro rdf:type owl:NamedIndividual ,
-                  <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> ;
+                  :Region ;
          :hasWineRegionName "Ribeiro" .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Ribera_del_Duero
 :Ribera_del_Duero rdf:type owl:NamedIndividual ,
-                           <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> ;
+                           :Region ;
                   :hasWineRegionName "Ribera del Duero" .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rioja
 :Rioja rdf:type owl:NamedIndividual ,
-                <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> ;
+                :Region ;
        :hasWineRegionName "Rioja" ;
        rdfs:sameAs "http://dbpedia.org/resource/Rioja_(wine)" .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rueda
 :Rueda rdf:type owl:NamedIndividual ,
-                <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> ;
+                :Region ;
        :hasWineRegionName "Rueda" .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Static
 :Static rdf:type owl:NamedIndividual ,
-                 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> .
+                 :NumReviews .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Strong
 :Strong rdf:type owl:NamedIndividual ,
-                 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> .
+                 :WineAcidity .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Superb
@@ -1073,12 +1067,12 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Trending
 :Trending rdf:type owl:NamedIndividual ,
-                   <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> .
+                   :NumReviews .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Unknown
 :Unknown rdf:type owl:NamedIndividual ,
-                  <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> .
+                  :WineAcidity .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#VeryExpensive
@@ -1099,12 +1093,12 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Viral
 :Viral rdf:type owl:NamedIndividual ,
-                <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> .
+                :NumReviews .
 
 
 ###  http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#White
 :White rdf:type owl:NamedIndividual ,
-                <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> .
+                :WineColor .
 
 
 #################################################################
@@ -1126,13 +1120,28 @@ owl:sameAs rdf:type owl:ObjectProperty .
 :Classic rdfs:comment "Wine classified as Classic (the best)" .
 
 
+:Delicate rdfs:comment "Delicate acidity" .
+
+
 :Excellent rdfs:comment "Wine classified as excellent" .
 
 
 :Expensive rdfs:comment "Exprensive price" .
 
 
+:Full rdfs:comment "Wine body full classification" .
+
+
 :Good rdfs:comment "Wine classified as good" .
+
+
+:Light rdfs:comment "Wine body light classification" .
+
+
+:Medium rdfs:comment "Wine body medium classification" .
+
+
+:Moderate rdfs:comment "Moderate acidity" .
 
 
 :NA rdfs:comment "Unknown color of wine" .
@@ -1152,6 +1161,9 @@ owl:sameAs rdf:type owl:ObjectProperty .
 
 
 :Static rdfs:comment "Few reviews" .
+
+
+:Strong rdfs:comment "Strong acidity" .
 
 
 :Superb rdfs:comment "Wine classified as superb" .
@@ -1193,18 +1205,18 @@ owl:Thing rdfs:comment "Author: Francisco García Caparós" ;
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :NotClassified
-                :RedWine
-                :WhiteWine
+  owl:members ( :Delicate
+                :Moderate
+                :Strong
+                :Unknown
               )
 ] .
 
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( :Unknown
-                <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Delicate>
-                <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Moderate>
-                <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Strong>
+  owl:members ( :NotClassified
+                :RedWine
+                :WhiteWine
               )
 ] .
 

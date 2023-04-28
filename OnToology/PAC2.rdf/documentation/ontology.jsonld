@@ -10,11 +10,11 @@
 }, {
   "@id" : "_:genid10",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity"
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidity"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineName"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -88,11 +88,11 @@
 }, {
   "@id" : "_:genid11",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAge"
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAge"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWinePrice"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -157,11 +157,11 @@
 }, {
   "@id" : "_:genid12",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody"
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBody"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineYear"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -232,10 +232,10 @@
   "@id" : "_:genid13",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidity"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -301,10 +301,10 @@
   "@id" : "_:genid14",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAge"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviews"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAge"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -375,10 +375,10 @@
   "@id" : "_:genid15",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WinePrice"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasPrice"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBody"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -435,10 +435,10 @@
   "@id" : "_:genid16",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rating"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRating"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -509,10 +509,10 @@
   "@id" : "_:genid17",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegion"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviews"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -566,10 +566,10 @@
   "@id" : "_:genid18",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WinePrice"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWinery"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasPrice"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -630,11 +630,15 @@
 }, {
   "@id" : "_:genid19",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rating"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAgeInv"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRating"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
   } ]
 }, {
   "@id" : "_:genid190",
@@ -704,16 +708,20 @@
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingInv"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviewsInv"
   } ]
 }, {
   "@id" : "_:genid20",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasPriceInv"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegion"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
   } ]
 }, {
   "@id" : "_:genid201",
@@ -767,11 +775,15 @@
 }, {
   "@id" : "_:genid21",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviewsInv"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWinery"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
   } ]
 }, {
   "@id" : "_:genid210",
@@ -837,15 +849,11 @@
 }, {
   "@id" : "_:genid22",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName"
-  } ],
-  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidityInv"
   } ]
 }, {
   "@id" : "_:genid221",
@@ -915,7 +923,7 @@
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegionInv"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAgeInv"
   } ]
 }, {
   "@id" : "_:genid232",
@@ -983,7 +991,7 @@
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidityInv"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBodyInv"
   } ]
 }, {
   "@id" : "_:genid241",
@@ -1015,7 +1023,7 @@
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBodyInv"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColorInv"
   } ]
 }, {
   "@id" : "_:genid26",
@@ -1024,7 +1032,7 @@
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColorInv"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasPriceInv"
   } ]
 }, {
   "@id" : "_:genid27",
@@ -1064,13 +1072,27 @@
   "@id" : "_:genid3",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Red"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingInv"
   } ]
 }, {
   "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Delicate"
+    }, {
+      "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Moderate"
+    }, {
+      "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Strong"
+    }, {
+      "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Unknown"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid38",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -1082,24 +1104,10 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid37",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Unknown"
-    }, {
-      "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Delicate"
-    }, {
-      "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Moderate"
-    }, {
-      "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Strong"
-    } ]
-  } ]
-}, {
   "@id" : "_:genid4",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#White"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Red"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor"
@@ -1151,10 +1159,10 @@
   "@id" : "_:genid5",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onDataRange" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingValue"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -1224,15 +1232,11 @@
 }, {
   "@id" : "_:genid6",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasReviews"
-  } ],
-  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegionInv"
   } ]
 }, {
   "@id" : "_:genid61",
@@ -1300,15 +1304,11 @@
 }, {
   "@id" : "_:genid7",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#White"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineName"
-  } ],
-  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor"
   } ]
 }, {
   "@id" : "_:genid72",
@@ -1368,7 +1368,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWinePrice"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingValue"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -1421,7 +1421,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineYear"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasReviews"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -1595,7 +1595,7 @@
     "@value" : "Bierzo"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#BigReserve",
@@ -1665,9 +1665,15 @@
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Delicate",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Delicate acidity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Descendientes_de_J._Palacios",
@@ -1839,9 +1845,15 @@
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Full",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Wine body full classification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Good",
@@ -1961,9 +1973,15 @@
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Light",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Wine body light classification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Marques_de_Riscal",
@@ -1976,9 +1994,15 @@
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Medium",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Wine body medium classification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Mencia",
@@ -1991,9 +2015,15 @@
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Moderate",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Moderate acidity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Monastrell",
@@ -2011,7 +2041,7 @@
     "@value" : "Montilla-Moriles"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#MontsantRed",
@@ -2026,13 +2056,13 @@
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NA",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Unknown color of wine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Navarra",
@@ -2041,7 +2071,7 @@
     "@value" : "Navarra"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NotClassified",
@@ -2064,7 +2094,18 @@
     "@value" : "Not specified body"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Number of reviews of the wine classified by its corresponent category"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineRating"
+  }, {
+    "@id" : "_:genid2"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#PedroXimenez",
@@ -2100,15 +2141,15 @@
     "@value" : "Wine's rating classified by a category"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineRating"
   }, {
-    "@id" : "_:genid2"
+    "@id" : "_:genid3"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Red",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Red wine color"
@@ -2117,7 +2158,7 @@
     "@value" : "http://dbpedia.org/resource/Red_wine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#RedWine",
@@ -2128,7 +2169,25 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   }, {
-    "@id" : "_:genid3"
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Wine's region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Category:Wine_regions_of_Spain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid6"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid5"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Regular",
@@ -2161,7 +2220,7 @@
     "@value" : "Ribeiro"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#RiberaDelDueroRed",
@@ -2179,7 +2238,7 @@
     "@value" : "Ribera del Duero"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rioja",
@@ -2188,7 +2247,7 @@
     "@value" : "Rioja"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
     "@value" : "http://dbpedia.org/resource/Rioja_(wine)"
@@ -2218,7 +2277,7 @@
     "@value" : "Rueda"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#SauvignonBlanc",
@@ -2251,19 +2310,25 @@
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Static",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Few reviews"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Strong",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Strong acidity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Superb",
@@ -2369,25 +2434,25 @@
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Trending",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Significant number of reviews"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Unknown",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Unknown acidity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Verdejo",
@@ -2435,19 +2500,19 @@
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Viral",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A big number of reviews, more than trending"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#White",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "White wine color"
@@ -2456,7 +2521,7 @@
     "@value" : "http://dbpedia.org/resource/White_wine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WhiteWine",
@@ -2467,7 +2532,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   }, {
-    "@id" : "_:genid4"
+    "@id" : "_:genid7"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine",
@@ -2476,12 +2541,6 @@
     "@value" : "Wine's general class"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid10"
-  }, {
-    "@id" : "_:genid11"
-  }, {
-    "@id" : "_:genid12"
-  }, {
     "@id" : "_:genid13"
   }, {
     "@id" : "_:genid14"
@@ -2493,17 +2552,34 @@
     "@id" : "_:genid17"
   }, {
     "@id" : "_:genid18"
+  }, {
+    "@id" : "_:genid19"
+  }, {
+    "@id" : "_:genid20"
+  }, {
+    "@id" : "_:genid21"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid5"
-  }, {
-    "@id" : "_:genid6"
-  }, {
-    "@id" : "_:genid7"
-  }, {
     "@id" : "_:genid8"
   }, {
     "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  }, {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Defines the acidity of the wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineTaste"
+  }, {
+    "@id" : "_:genid22"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAge",
@@ -2512,9 +2588,37 @@
     "@value" : "Defines the age of the wine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineDescriptor"
   }, {
-    "@id" : "_:genid19"
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Defines the body of the wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineTaste"
+  }, {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Defines the color of the wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineDescriptor"
+  }, {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineDescriptor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "General chass that defines age, color and taste"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WinePrice",
@@ -2523,7 +2627,22 @@
     "@value" : "Wine's price"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid20"
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Wine's rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineTaste",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Defines the acidity and body of the wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineDescriptor"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidity",
@@ -2535,7 +2654,7 @@
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescriptor"
@@ -2550,7 +2669,7 @@
     "@value" : "Inverse relation between wine and WineAcidity."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
@@ -2601,7 +2720,7 @@
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescriptor"
@@ -2616,7 +2735,7 @@
     "@value" : "Inverse relation between wine and WineBody."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
@@ -2634,7 +2753,7 @@
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescriptor"
@@ -2649,7 +2768,7 @@
     "@value" : "Inverse relation between wine and WineColor."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
@@ -2667,7 +2786,7 @@
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatings"
@@ -2682,7 +2801,7 @@
     "@value" : "Inverse relation between wine and NumReviews."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
@@ -2772,7 +2891,7 @@
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineRating"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingsInv"
@@ -2784,7 +2903,7 @@
     "@value" : "Inverse relation between wine and WineRating."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineRating"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
@@ -2799,7 +2918,7 @@
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegionInv"
@@ -2811,7 +2930,7 @@
     "@value" : "Inverse relation between wine and Region."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
@@ -2835,7 +2954,7 @@
     "@value" : "Inverse relation between wine and WineDescriptor."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineDescriptor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
@@ -2853,7 +2972,7 @@
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineDescriptor"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineName",
@@ -2886,7 +3005,7 @@
     "@value" : "Winery region name. It is a string."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -2941,143 +3060,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Delicate",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Delicate acidity"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Full",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Wine body full classification"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Light",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Wine body light classification"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Medium",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Wine body medium classification"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Moderate",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Moderate acidity"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Number of reviews of the wine classified by its corresponent category"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating"
-  }, {
-    "@id" : "_:genid21"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Wine's region"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Region"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
-    "@value" : "https://dbpedia.org/page/Category:Wine_regions_of_Spain"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid23"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid22"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Strong",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Strong acidity"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Defines the acidity of the wine"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineTaste"
-  }, {
-    "@id" : "_:genid24"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Defines the body of the wine"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineTaste"
-  }, {
-    "@id" : "_:genid25"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Defines the color of the wine"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor"
-  }, {
-    "@id" : "_:genid26"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "General chass that defines age, color and taste"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Wine's rating"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineTaste",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Defines the acidity and body of the wine"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery",
