@@ -6,6 +6,76 @@
    <key attr.name="description" attr.type="string" for="edge" id="d3" />
    <key for="graphml" id="d4" yfiles.type="resources" />
    <graph edgedefault="directed" id="G" parse.edges="57" parse.nodes="61" parse.order="free">
+      <node id="nid_frangcPAC2:Medium">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="170.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">frangcPAC2:Medium</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_frangcPAC2:WineBody">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="190.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">frangcPAC2:WineBody</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf0" source="nid_frangcPAC2:Medium" target="nid_frangcPAC2:WineBody">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_frangcPAC2:WineTaste">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="200.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">frangcPAC2:WineTaste</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+      <node id="nid_frangcPAC2:WineDescriptor">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="250.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">frangcPAC2:WineDescriptor</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf1" source="nid_frangcPAC2:WineTaste" target="nid_frangcPAC2:WineDescriptor">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
       <node id="nid_frangcPAC2:Cheap">
          <data key="d0">
             <y:ShapeNode>
@@ -30,7 +100,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf0" source="nid_frangcPAC2:Cheap" target="nid_frangcPAC2:WinePrice">
+    <edge id="eid_rdfs:subClassOf2" source="nid_frangcPAC2:Cheap" target="nid_frangcPAC2:WinePrice">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -53,19 +123,7 @@
          </data>
          <data key="d1" />
       </node>
-      <node id="nid_:WineBody">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="90.0" x="0.0" y="0.0" />
-               <y:Fill color="#000000" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:WineBody</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdfs:subClassOf1" source="nid_frangcPAC2:NotSpecified" target="nid_:WineBody">
+    <edge id="eid_rdfs:subClassOf3" source="nid_frangcPAC2:NotSpecified" target="nid_frangcPAC2:WineBody">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -88,7 +146,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf2" source="nid_frangcPAC2:VeryExpensive" target="nid_frangcPAC2:WinePrice">
+    <edge id="eid_rdfs:subClassOf4" source="nid_frangcPAC2:VeryExpensive" target="nid_frangcPAC2:WinePrice">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -123,7 +181,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf3" source="nid_frangcPAC2:BigReserve" target="nid_frangcPAC2:WineAge">
+    <edge id="eid_rdfs:subClassOf5" source="nid_frangcPAC2:BigReserve" target="nid_frangcPAC2:WineAge">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -134,19 +192,7 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_:WineDescriptor">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="150.0" x="0.0" y="0.0" />
-               <y:Fill color="#000000" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:WineDescriptor</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdfs:subClassOf4" source="nid_frangcPAC2:WineAge" target="nid_:WineDescriptor">
+    <edge id="eid_rdfs:subClassOf6" source="nid_frangcPAC2:WineAge" target="nid_frangcPAC2:WineDescriptor">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -157,42 +203,31 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_:Light">
+      <node id="nid_frangcPAC2:Strong">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="60.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="170.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Light</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">frangcPAC2:Strong</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf5" source="nid_:Light" target="nid_:WineBody">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_:Full">
+      <node id="nid_frangcPAC2:WineAcidity">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="50.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="220.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Full</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">frangcPAC2:WineAcidity</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf6" source="nid_:Full" target="nid_:WineBody">
+    <edge id="eid_rdfs:subClassOf7" source="nid_frangcPAC2:Strong" target="nid_frangcPAC2:WineAcidity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -227,7 +262,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf7" source="nid_frangcPAC2:Albarino" target="nid_frangcPAC2:WhiteWine">
+    <edge id="eid_rdfs:subClassOf8" source="nid_frangcPAC2:Albarino" target="nid_frangcPAC2:WhiteWine">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -262,7 +297,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf8" source="nid_frangcPAC2:Sparkling" target="nid_frangcPAC2:NotClassified">
+    <edge id="eid_rdfs:subClassOf9" source="nid_frangcPAC2:Sparkling" target="nid_frangcPAC2:NotClassified">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -285,19 +320,19 @@
          </data>
          <data key="d1" />
       </node>
-      <node id="nid_:NumReviews">
+      <node id="nid_frangcPAC2:NumReviews">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="110.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="210.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:NumReviews</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">frangcPAC2:NumReviews</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf9" source="nid_frangcPAC2:Viral" target="nid_:NumReviews">
+    <edge id="eid_rdfs:subClassOf10" source="nid_frangcPAC2:Viral" target="nid_frangcPAC2:NumReviews">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -320,7 +355,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf10" source="nid_frangcPAC2:WhiteWine" target="nid_frangcPAC2:Wine">
+    <edge id="eid_rdfs:subClassOf11" source="nid_frangcPAC2:WhiteWine" target="nid_frangcPAC2:Wine">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -343,7 +378,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf11" source="nid_frangcPAC2:Verdejo" target="nid_frangcPAC2:WhiteWine">
+    <edge id="eid_rdfs:subClassOf12" source="nid_frangcPAC2:Verdejo" target="nid_frangcPAC2:WhiteWine">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -366,7 +401,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf12" source="nid_frangcPAC2:RiojaWhite" target="nid_frangcPAC2:WhiteWine">
+    <edge id="eid_rdfs:subClassOf13" source="nid_frangcPAC2:RiojaWhite" target="nid_frangcPAC2:WhiteWine">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -377,31 +412,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_:Moderate">
+      <node id="nid_frangcPAC2:Full">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="90.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="150.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Moderate</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">frangcPAC2:Full</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-      <node id="nid_:WineAcidity">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="120.0" x="0.0" y="0.0" />
-               <y:Fill color="#000000" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:WineAcidity</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdfs:subClassOf13" source="nid_:Moderate" target="nid_:WineAcidity">
+    <edge id="eid_rdfs:subClassOf14" source="nid_frangcPAC2:Full" target="nid_frangcPAC2:WineBody">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -424,7 +447,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf14" source="nid_frangcPAC2:SauvignonBlanc" target="nid_frangcPAC2:WhiteWine">
+    <edge id="eid_rdfs:subClassOf15" source="nid_frangcPAC2:SauvignonBlanc" target="nid_frangcPAC2:WhiteWine">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -459,7 +482,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf15" source="nid_frangcPAC2:PedroXimenez" target="nid_frangcPAC2:RedWine">
+    <edge id="eid_rdfs:subClassOf16" source="nid_frangcPAC2:PedroXimenez" target="nid_frangcPAC2:RedWine">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -482,7 +505,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf16" source="nid_frangcPAC2:Tempranillo" target="nid_frangcPAC2:RedWine">
+    <edge id="eid_rdfs:subClassOf17" source="nid_frangcPAC2:Tempranillo" target="nid_frangcPAC2:RedWine">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -493,7 +516,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf17" source="nid_frangcPAC2:NotClassified" target="nid_frangcPAC2:Wine">
+    <edge id="eid_rdfs:subClassOf18" source="nid_frangcPAC2:NotClassified" target="nid_frangcPAC2:Wine">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -516,7 +539,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf18" source="nid_frangcPAC2:Sherry" target="nid_frangcPAC2:NotClassified">
+    <edge id="eid_rdfs:subClassOf19" source="nid_frangcPAC2:Sherry" target="nid_frangcPAC2:NotClassified">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -539,7 +562,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf19" source="nid_frangcPAC2:Monastrell" target="nid_frangcPAC2:NotClassified">
+    <edge id="eid_rdfs:subClassOf20" source="nid_frangcPAC2:Monastrell" target="nid_frangcPAC2:NotClassified">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -562,19 +585,19 @@
          </data>
          <data key="d1" />
       </node>
-      <node id="nid_:WineColor">
+      <node id="nid_frangcPAC2:WineColor">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="100.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="200.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:WineColor</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">frangcPAC2:WineColor</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf20" source="nid_frangcPAC2:White" target="nid_:WineColor">
+    <edge id="eid_rdfs:subClassOf21" source="nid_frangcPAC2:White" target="nid_frangcPAC2:WineColor">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -609,7 +632,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf21" source="nid_frangcPAC2:Good" target="nid_frangcPAC2:Rating">
+    <edge id="eid_rdfs:subClassOf22" source="nid_frangcPAC2:Good" target="nid_frangcPAC2:Rating">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -632,7 +655,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf22" source="nid_frangcPAC2:RiberaDelDueroRed" target="nid_frangcPAC2:RedWine">
+    <edge id="eid_rdfs:subClassOf23" source="nid_frangcPAC2:RiberaDelDueroRed" target="nid_frangcPAC2:RedWine">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -655,7 +678,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf23" source="nid_frangcPAC2:Regular" target="nid_frangcPAC2:WinePrice">
+    <edge id="eid_rdfs:subClassOf24" source="nid_frangcPAC2:Regular" target="nid_frangcPAC2:WinePrice">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -678,7 +701,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf24" source="nid_frangcPAC2:Syrah" target="nid_frangcPAC2:RedWine">
+    <edge id="eid_rdfs:subClassOf25" source="nid_frangcPAC2:Syrah" target="nid_frangcPAC2:RedWine">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -701,7 +724,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf25" source="nid_frangcPAC2:Classic" target="nid_frangcPAC2:Rating">
+    <edge id="eid_rdfs:subClassOf26" source="nid_frangcPAC2:Classic" target="nid_frangcPAC2:Rating">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -724,30 +747,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf26" source="nid_frangcPAC2:CabernetSauvignon" target="nid_frangcPAC2:RedWine">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_:Delicate">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="90.0" x="0.0" y="0.0" />
-               <y:Fill color="#000000" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Delicate</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdfs:subClassOf27" source="nid_:Delicate" target="nid_:WineAcidity">
+    <edge id="eid_rdfs:subClassOf27" source="nid_frangcPAC2:CabernetSauvignon" target="nid_frangcPAC2:RedWine">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -816,7 +816,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf30" source="nid_frangcPAC2:Red" target="nid_:WineColor">
+    <edge id="eid_rdfs:subClassOf30" source="nid_frangcPAC2:Red" target="nid_frangcPAC2:WineColor">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -839,7 +839,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf31" source="nid_frangcPAC2:Unknown" target="nid_:WineAcidity">
+    <edge id="eid_rdfs:subClassOf31" source="nid_frangcPAC2:Unknown" target="nid_frangcPAC2:WineAcidity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -873,29 +873,6 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_:Medium">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="70.0" x="0.0" y="0.0" />
-               <y:Fill color="#000000" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Medium</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdfs:subClassOf33" source="nid_:Medium" target="nid_:WineBody">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
       <node id="nid_frangcPAC2:VeryGood">
          <data key="d0">
             <y:ShapeNode>
@@ -908,7 +885,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf34" source="nid_frangcPAC2:VeryGood" target="nid_frangcPAC2:Rating">
+    <edge id="eid_rdfs:subClassOf33" source="nid_frangcPAC2:VeryGood" target="nid_frangcPAC2:Rating">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -931,7 +908,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf35" source="nid_frangcPAC2:Static" target="nid_:NumReviews">
+    <edge id="eid_rdfs:subClassOf34" source="nid_frangcPAC2:Static" target="nid_frangcPAC2:NumReviews">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -954,7 +931,18 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf36" source="nid_frangcPAC2:Aging" target="nid_frangcPAC2:WineAge">
+    <edge id="eid_rdfs:subClassOf35" source="nid_frangcPAC2:Aging" target="nid_frangcPAC2:WineAge">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdfs:subClassOf36" source="nid_frangcPAC2:WineBody" target="nid_frangcPAC2:WineTaste">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -977,18 +965,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf37" source="nid_frangcPAC2:NA" target="nid_:WineColor">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_rdfs:subClassOf38" source="nid_:WineColor" target="nid_:WineDescriptor">
+    <edge id="eid_rdfs:subClassOf37" source="nid_frangcPAC2:NA" target="nid_frangcPAC2:WineColor">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1011,7 +988,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf39" source="nid_frangcPAC2:Superb" target="nid_frangcPAC2:Rating">
+    <edge id="eid_rdfs:subClassOf38" source="nid_frangcPAC2:Superb" target="nid_frangcPAC2:Rating">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1022,19 +999,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_:Strong">
+      <node id="nid_frangcPAC2:Moderate">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="70.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="190.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:Strong</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">frangcPAC2:Moderate</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf40" source="nid_:Strong" target="nid_:WineAcidity">
+    <edge id="eid_rdfs:subClassOf39" source="nid_frangcPAC2:Moderate" target="nid_frangcPAC2:WineAcidity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1057,7 +1034,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf41" source="nid_frangcPAC2:Mencia" target="nid_frangcPAC2:RedWine">
+    <edge id="eid_rdfs:subClassOf40" source="nid_frangcPAC2:Mencia" target="nid_frangcPAC2:RedWine">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1080,7 +1057,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf42" source="nid_frangcPAC2:Cava" target="nid_frangcPAC2:NotClassified">
+    <edge id="eid_rdfs:subClassOf41" source="nid_frangcPAC2:Cava" target="nid_frangcPAC2:NotClassified">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1103,7 +1080,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf43" source="nid_frangcPAC2:Chardonnay" target="nid_frangcPAC2:WhiteWine">
+    <edge id="eid_rdfs:subClassOf42" source="nid_frangcPAC2:Chardonnay" target="nid_frangcPAC2:WhiteWine">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1126,7 +1103,18 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf44" source="nid_frangcPAC2:RiojaRed" target="nid_frangcPAC2:RedWine">
+    <edge id="eid_rdfs:subClassOf43" source="nid_frangcPAC2:RiojaRed" target="nid_frangcPAC2:RedWine">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_rdfs:subClassOf44" source="nid_frangcPAC2:WineAcidity" target="nid_frangcPAC2:WineTaste">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1148,19 +1136,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_:WineTaste">
+      <node id="nid_frangcPAC2:WineRating">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="100.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="210.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:WineTaste</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">frangcPAC2:WineRating</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf46" source="nid_:WineTaste" target="nid_:WineDescriptor">
+    <edge id="eid_rdfs:subClassOf46" source="nid_frangcPAC2:NumReviews" target="nid_frangcPAC2:WineRating">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1171,19 +1159,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_:WineRating">
+      <node id="nid_frangcPAC2:Delicate">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="110.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="190.0" x="0.0" y="0.0" />
                <y:Fill color="#000000" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">:WineRating</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">frangcPAC2:Delicate</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf47" source="nid_:NumReviews" target="nid_:WineRating">
+    <edge id="eid_rdfs:subClassOf47" source="nid_frangcPAC2:Delicate" target="nid_frangcPAC2:WineAcidity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1240,7 +1228,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf50" source="nid_:WineBody" target="nid_:WineTaste">
+    <edge id="eid_rdfs:subClassOf50" source="nid_frangcPAC2:WineColor" target="nid_frangcPAC2:WineDescriptor">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1251,7 +1239,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf51" source="nid_frangcPAC2:Rating" target="nid_:WineRating">
+    <edge id="eid_rdfs:subClassOf51" source="nid_frangcPAC2:Rating" target="nid_frangcPAC2:WineRating">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1285,7 +1273,19 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf53" source="nid_:WineAcidity" target="nid_:WineTaste">
+      <node id="nid_frangcPAC2:Light">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="160.0" x="0.0" y="0.0" />
+               <y:Fill color="#000000" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">frangcPAC2:Light</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdfs:subClassOf53" source="nid_frangcPAC2:Light" target="nid_frangcPAC2:WineBody">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1354,7 +1354,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf56" source="nid_frangcPAC2:Trending" target="nid_:NumReviews">
+    <edge id="eid_rdfs:subClassOf56" source="nid_frangcPAC2:Trending" target="nid_frangcPAC2:NumReviews">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />

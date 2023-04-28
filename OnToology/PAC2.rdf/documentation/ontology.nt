@@ -43,13 +43,13 @@
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidity> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidityInv> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between wine and WineAcidity." .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidityInv
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidityInv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidityInv> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescInv> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidityInv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidityInv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidityInv> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidityInv> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse relation between wine and WineAcidity." .
 # 
@@ -75,13 +75,13 @@
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBody> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBodyInv> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBody> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBody> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBody> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBody> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between wine and WineBody." .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBodyInv
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBodyInv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBodyInv> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescInv> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBodyInv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBodyInv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBodyInv> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBodyInv> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse relation between wine and WineBody." .
 # 
@@ -91,13 +91,13 @@
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColorInv> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between wine and WineColor." .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColorInv
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColorInv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColorInv> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescInv> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColorInv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColorInv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColorInv> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColorInv> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse relation between wine and WineColor." .
 # 
@@ -106,13 +106,13 @@
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviews> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatings> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviews> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviewsInv> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviews> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviews> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviews> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviews> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between wine and NumReviews." .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviewsInv
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviewsInv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviewsInv> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingsInv> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviewsInv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviewsInv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviewsInv> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviewsInv> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse relation between wine and NumReviews." .
 # 
@@ -148,12 +148,12 @@
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatings> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingsInv> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatings> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatings> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatings> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineRating> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatings> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between wine and WineRating." .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingsInv
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingsInv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingsInv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingsInv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineRating> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingsInv> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingsInv> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse relation between wine and WineRating." .
 # 
@@ -162,26 +162,26 @@
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegion> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegionInv> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between wine and Region." .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegionInv
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegionInv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegionInv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegionInv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegionInv> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegionInv> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse relation between wine and Region." .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescInv
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescInv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescInv> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescriptor> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescInv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescInv> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineDescriptor> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescInv> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescInv> <http://www.w3.org/2000/01/rdf-schema#comment> "Inverse relation between wine and WineDescriptor." .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescriptor
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescriptor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescriptor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescriptor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescriptor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineDescriptor> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineDescriptor> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between wine and WineDescriptor." .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWinery
@@ -236,7 +236,7 @@
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName> <http://www.w3.org/2000/01/rdf-schema#comment> "Winery region name. It is a string." .
 # 
@@ -302,6 +302,10 @@
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Classic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Classic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rating> .
 # 
+# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Delicate
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Delicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Delicate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity> .
+# 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Excellent
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Excellent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Excellent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rating> .
@@ -309,6 +313,10 @@
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Expensive
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Expensive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Expensive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WinePrice> .
+# 
+# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Full
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Full> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Full> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Good
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Good> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -319,10 +327,22 @@
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Grenache> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NotClassified> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Grenache> <http://www.w3.org/2000/01/rdf-schema#comment> "Grenache wine" .
 # 
+# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Light
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Light> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody> .
+# 
+# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Medium
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Medium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Medium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody> .
+# 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Mencia
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Mencia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Mencia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#RedWine> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Mencia> <http://www.w3.org/2000/01/rdf-schema#comment> "Mencia wine" .
+# 
+# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Moderate
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Moderate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Moderate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Monastrell
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Monastrell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -336,7 +356,7 @@
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NA
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NotClassified
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NotClassified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -349,7 +369,16 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NotSpecified
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NotSpecified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NotSpecified> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NotSpecified> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody> .
+# 
+# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineRating> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviewsInv> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of reviews of the wine classified by its corresponent category" .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#PedroXimenez
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#PedroXimenez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -363,25 +392,40 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rating
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
-_:genid2 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingInv> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineRating> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingInv> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine's rating classified by a category" .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Red
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Red> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Red> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Red> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#RedWine
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#RedWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#RedWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#RedWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
-_:genid3 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Red> .
-_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#RedWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Red> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#RedWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Red wine." .
+# 
+# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid5 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegionInv> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine's region" .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> <http://www.w3.org/2000/01/rdf-schema#label> "Region" .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Category:Wine_regions_of_Spain" .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Regular
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Regular> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -423,7 +467,11 @@ _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Static
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Static> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Static> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Static> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews> .
+# 
+# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Strong
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Strong> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Strong> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Superb
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Superb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -446,11 +494,11 @@ _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Trending
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Trending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Trending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Trending> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Unknown
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Unknown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Unknown> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Unknown> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Verdejo
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Verdejo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -467,205 +515,151 @@ _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Viral
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Viral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Viral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Viral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#White
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#White> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#White> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#White> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WhiteWine
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WhiteWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WhiteWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WhiteWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
-_:genid4 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#White> .
-_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WhiteWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#White> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WhiteWine> <http://www.w3.org/2000/01/rdf-schema#comment> "White wine" .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
-_:genid5 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
-_:genid5 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingValue> .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid6 .
-_:genid6 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#integer> .
-_:genid6 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasReviews> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid7 .
-_:genid7 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-_:genid7 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineName> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid8 .
 _:genid8 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
 _:genid8 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWinePrice> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRatingValue> .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
 _:genid9 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#integer> .
 _:genid9 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineYear> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasReviews> .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
-_:genid10 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
 _:genid10 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidity> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineName> .
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
-_:genid11 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAge> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#double> .
 _:genid11 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAge> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWinePrice> .
 _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
-_:genid12 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#integer> .
 _:genid12 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBody> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineYear> .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
-_:genid13 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> .
+_:genid13 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity> .
 _:genid13 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidity> .
 _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
-_:genid14 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> .
+_:genid14 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAge> .
 _:genid14 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviews> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAge> .
 _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
-_:genid15 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WinePrice> .
+_:genid15 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody> .
 _:genid15 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasPrice> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBody> .
 _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
-_:genid16 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rating> .
+_:genid16 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor> .
 _:genid16 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRating> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColor> .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
-_:genid17 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> .
+_:genid17 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews> .
 _:genid17 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegion> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviews> .
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
-_:genid18 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery> .
+_:genid18 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WinePrice> .
 _:genid18 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWinery> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasPrice> .
 _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rating> .
+_:genid19 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRating> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> .
+_:genid20 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegion> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery> .
+_:genid21 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWinery> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine's general class" .
+# 
+# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineTaste> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidityInv> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the acidity of the wine" .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAge
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
-_:genid19 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAgeInv> .
-_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineDescriptor> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAgeInv> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAge> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the age of the wine" .
+# 
+# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineTaste> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBodyInv> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the body of the wine" .
+# 
+# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineDescriptor> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColorInv> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the color of the wine" .
+# 
+# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineDescriptor
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineDescriptor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineDescriptor> <http://www.w3.org/2000/01/rdf-schema#comment> "General chass that defines age, color and taste" .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WinePrice
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WinePrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WinePrice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
-_:genid20 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasPriceInv> .
-_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WinePrice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasPriceInv> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WinePrice> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine's price" .
 # 
-# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Delicate
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Delicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Delicate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Delicate> <http://www.w3.org/2000/01/rdf-schema#comment> "Delicate acidity" .
+# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineRating
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine's rating" .
 # 
-# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Full
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Full> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Full> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Full> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine body full classification" .
-# 
-# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Light
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Light> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Light> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine body light classification" .
-# 
-# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Medium
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Medium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Medium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Medium> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine body medium classification" .
-# 
-# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Moderate
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Moderate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Moderate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Moderate> <http://www.w3.org/2000/01/rdf-schema#comment> "Moderate acidity" .
-# 
-# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
-_:genid21 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasNumReviewsInv> .
-_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of reviews of the wine classified by its corresponent category" .
-# 
-# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid22 .
-_:genid22 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-_:genid22 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName> .
-_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
-_:genid23 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasRegionInv> .
-_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine's region" .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> <http://www.w3.org/2000/01/rdf-schema#label> "Region" .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Category:Wine_regions_of_Spain" .
-# 
-# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Strong
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Strong> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Strong> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Strong> <http://www.w3.org/2000/01/rdf-schema#comment> "Strong acidity" .
-# 
-# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineTaste> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
-_:genid24 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidityInv> .
-_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the acidity of the wine" .
-# 
-# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineTaste> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
-_:genid25 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasBodyInv> .
-_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the body of the wine" .
-# 
-# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
-_:genid26 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine> .
-_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasColorInv> .
-_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the color of the wine" .
-# 
-# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor> <http://www.w3.org/2000/01/rdf-schema#comment> "General chass that defines age, color and taste" .
-# 
-# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine's rating" .
-# 
-# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineTaste
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineTaste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineTaste> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineDescriptor> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineTaste> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the acidity and body of the wine" .
+# http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineTaste
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineTaste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineTaste> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineDescriptor> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineTaste> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the acidity and body of the wine" .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -715,7 +709,7 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Bierzo
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Bierzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Bierzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Bierzo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Bierzo> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName> "Bierzo" .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#BigReserve
@@ -732,7 +726,7 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Delicate
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Delicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Delicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Delicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Descendientes_de_J._Palacios
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Descendientes_de_J._Palacios> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -797,7 +791,7 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Full
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Full> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Full> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Full> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Good
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Good> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -840,7 +834,7 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Light
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Marques_de_Riscal
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Marques_de_Riscal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -849,24 +843,24 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Medium
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Medium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Medium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineBody> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Medium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineBody> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Moderate
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Moderate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Moderate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Moderate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Montilla-Moriles
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Montilla-Moriles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Montilla-Moriles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Montilla-Moriles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Montilla-Moriles> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName> "Montilla-Moriles" .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NA
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Navarra
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Navarra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Navarra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Navarra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Navarra> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName> "Navarra" .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NotSpecified
@@ -880,7 +874,7 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Red
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Red> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Red> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Red> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Regular
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Regular> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -892,32 +886,32 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Ribeiro
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Ribeiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Ribeiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Ribeiro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Ribeiro> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName> "Ribeiro" .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Ribera_del_Duero
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Ribera_del_Duero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Ribera_del_Duero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Ribera_del_Duero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Ribera_del_Duero> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName> "Ribera del Duero" .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rioja
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rioja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rioja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rioja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rioja> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName> "Rioja" .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rioja> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/resource/Rioja_(wine)" .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rueda
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rueda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rueda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Region> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rueda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Region> .
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rueda> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineRegionName> "Rueda" .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Static
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Static> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Static> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Static> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Strong
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Strong> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Strong> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Strong> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Superb
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Superb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -950,11 +944,11 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Trending
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Trending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Trending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Trending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Unknown
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Unknown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Unknown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineAcidity> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Unknown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineAcidity> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#VeryExpensive
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#VeryExpensive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -971,11 +965,11 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Viral
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Viral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Viral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#NumReviews> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Viral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NumReviews> .
 # 
 # http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#White
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#White> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#White> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#WineColor> .
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#White> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineColor> .
 # 
 # 
 # 
@@ -996,11 +990,21 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Classic> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine classified as Classic (the best)" .
 # 
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Delicate> <http://www.w3.org/2000/01/rdf-schema#comment> "Delicate acidity" .
+# 
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Excellent> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine classified as excellent" .
 # 
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Expensive> <http://www.w3.org/2000/01/rdf-schema#comment> "Exprensive price" .
 # 
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Full> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine body full classification" .
+# 
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Good> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine classified as good" .
+# 
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Light> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine body light classification" .
+# 
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Medium> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine body medium classification" .
+# 
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Moderate> <http://www.w3.org/2000/01/rdf-schema#comment> "Moderate acidity" .
 # 
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NA> <http://www.w3.org/2000/01/rdf-schema#comment> "Unknown color of wine" .
 # 
@@ -1014,6 +1018,8 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Reserve> <http://www.w3.org/2000/01/rdf-schema#comment> "\"Reserva\" wine" .
 # 
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Static> <http://www.w3.org/2000/01/rdf-schema#comment> "Few reviews" .
+# 
+<http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Strong> <http://www.w3.org/2000/01/rdf-schema#comment> "Strong acidity" .
 # 
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Superb> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine classified as superb" .
 # 
@@ -1055,30 +1061,30 @@ _:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanti
 _:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid33 <http://www.w3.org/2002/07/owl#members> _:genid36 .
+_:genid33 <http://www.w3.org/2002/07/owl#members> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
 _:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
 _:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
 _:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WhiteWine> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Unknown> .
 _:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#RedWine> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Strong> .
 _:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NotClassified> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Moderate> .
 _:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Delicate> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid37 <http://www.w3.org/2002/07/owl#members> _:genid41 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid38 <http://www.w3.org/2002/07/owl#members> _:genid41 .
 _:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
 _:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
-_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Strong> .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Moderate> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WhiteWine> .
 _:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Delicate> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#RedWine> .
 _:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Unknown> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#NotClassified> .
 _:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 # 
