@@ -50,7 +50,7 @@
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "license" : {
-      "@id" : "http://purl.org/dc/terms/license"
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#license"
     },
     "Expensive" : {
       "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2#Expensive"
@@ -222,6 +222,9 @@
     },
     "Viral" : {
       "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2#Viral"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
     },
     "Tempranillo" : {
       "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2#Tempranillo"

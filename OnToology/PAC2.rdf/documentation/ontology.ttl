@@ -7,14 +7,18 @@
 @base <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2#> .
 
 <http://www.semanticweb.org/mirifran/ontologies/2023/3/PAC2> rdf:type owl:Ontology ;
+                                                              <http://purl.org/dc/elements/1.1/title> "Title: PAC2 - EX2. Ontologia de vins" ;
                                                               <http://purl.org/dc/terms/creator> "Francisco Garcia Caparrós" ;
-                                                              <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" ;
-                                                              rdfs:label "Title: PAC2 - EX2. Ontologia de vins" ;
+                                                              <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-nd/3.0/es/> ;
                                                               owl:versionInfo "Version release: 1.0" .
 
 #################################################################
 #    Annotation properties
 #################################################################
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
 
 ###  http://purl.org/dc/terms/creator
 <http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
@@ -22,6 +26,10 @@
 
 ###  http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#license
+rdf:license rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2000/01/rdf-schema#sameAs
