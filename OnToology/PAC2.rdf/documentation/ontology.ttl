@@ -10,7 +10,7 @@
                                                               <http://purl.org/dc/elements/1.1/title> "PAC2 - EX2. Ontologia de vins" ;
                                                               <http://purl.org/dc/terms/creator> "Francisco Garcia Caparrós" ;
                                                               <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-nd/3.0/es/> ;
-                                                              owl:versionInfo "Version release: 1.0" .
+                                                              owl:versionInfo "Version release: 3.0" .
 
 #################################################################
 #    Annotation properties
