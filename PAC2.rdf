@@ -306,7 +306,7 @@
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineryInv"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"/>
         <rdfs:comment>Relation between wine and winery.</rdfs:comment>
     </owl:ObjectProperty>
     
@@ -315,7 +315,7 @@
     <!-- http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineryInv -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineryInv">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"/>
         <rdfs:comment>Invese relation between wine and winery.</rdfs:comment>
     </owl:ObjectProperty>
@@ -396,7 +396,7 @@
     <!-- http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineryName -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineryName">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Name of the winery. It is a string.</rdfs:comment>
     </owl:DatatypeProperty>
@@ -1007,7 +1007,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWinery"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Wine&apos;s general class</rdfs:comment>
@@ -1114,9 +1114,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery -->
+    <!-- http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery">
+    <owl:Class rdf:about="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery">
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineryName"/>
@@ -1226,7 +1226,7 @@
     <!-- http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Descendientes_de_J._Palacios -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Descendientes_de_J._Palacios">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"/>
         <frangcPAC2:hasWineryName>Descendientes de J. Palacios</frangcPAC2:hasWineryName>
     </owl:NamedIndividual>
     
@@ -1327,7 +1327,7 @@
     <!-- http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Inurrieta -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Inurrieta">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"/>
         <frangcPAC2:hasWineryName>Inurrieta</frangcPAC2:hasWineryName>
     </owl:NamedIndividual>
     
@@ -1382,7 +1382,7 @@
     <!-- http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Marques_de_Riscal -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Marques_de_Riscal">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"/>
         <frangcPAC2:hasWineryName>Marques de Riscal</frangcPAC2:hasWineryName>
     </owl:NamedIndividual>
     
@@ -1441,7 +1441,7 @@
     <!-- http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Ramon_do_Casar -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Ramon_do_Casar">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"/>
         <frangcPAC2:hasWineryName>Ramon do Casar</frangcPAC2:hasWineryName>
     </owl:NamedIndividual>
     
@@ -1535,7 +1535,7 @@
     <!-- http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Tarsus -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Tarsus">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"/>
         <frangcPAC2:hasWineryName>Tarsus</frangcPAC2:hasWineryName>
     </owl:NamedIndividual>
     
@@ -1544,7 +1544,7 @@
     <!-- http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Toro_Albala -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Toro_Albala">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"/>
         <frangcPAC2:hasWineryName>Toro Albala</frangcPAC2:hasWineryName>
     </owl:NamedIndividual>
     
@@ -1604,7 +1604,7 @@
     <!-- http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Vinos_Sanz -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Vinos_Sanz">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"/>
         <frangcPAC2:hasWineryName>Vivos Sanz</frangcPAC2:hasWineryName>
     </owl:NamedIndividual>
     
