@@ -776,7 +776,7 @@
   "@id" : "_:genid21",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWinery"
@@ -1682,7 +1682,7 @@
     "@value" : "Descendientes de J. Palacios"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Don_PX_Seleccion",
@@ -1883,7 +1883,7 @@
     "@value" : "Inurrieta"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#La_Faraona_Bierzo_Corullon",
@@ -1990,7 +1990,7 @@
     "@value" : "Marques de Riscal"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Medium",
@@ -2132,7 +2132,7 @@
     "@value" : "Ramon do Casar"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Rating",
@@ -2358,7 +2358,7 @@
     "@value" : "Tarsus"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Tempranillo",
@@ -2385,7 +2385,7 @@
     "@value" : "Toro Albala"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Treixadura",
@@ -2494,7 +2494,7 @@
     "@value" : "Vivos Sanz"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Viral",
@@ -2643,6 +2643,18 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#WineDescriptor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The winery of the wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid28"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid27"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasAcidity",
@@ -3032,7 +3044,7 @@
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#hasWineryInv"
@@ -3044,7 +3056,7 @@
     "@value" : "Invese relation between wine and winery."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Wine"
@@ -3056,22 +3068,10 @@
     "@value" : "Name of the winery. It is a string."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery"
+    "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2#Winery"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/mirifran/ontologies/2023/3/frangcPAC2untitled-ontology-8#Winery",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "The winery of the wine"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid28"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid27"
   } ]
 }, {
   "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#license",
