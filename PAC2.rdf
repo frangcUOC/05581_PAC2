@@ -16,7 +16,7 @@
         <dc:title>PAC2 - EX2. Ontologia de vins</dc:title>
         <terms:creator>Francisco Garcia Caparrós</terms:creator>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by-nd/3.0/es/"/>
-        <owl:versionInfo>Version release: 1.0</owl:versionInfo>
+        <owl:versionInfo>Version release: 3.0</owl:versionInfo>
     </owl:Ontology>
     
 
