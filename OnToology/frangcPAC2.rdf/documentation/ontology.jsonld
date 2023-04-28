@@ -1614,9 +1614,6 @@
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://creativecommons.org/licenses/by-nd/3.0/es/"
   } ],
-  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/def/frangcPAC2"
-  } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "Version release: 5.0"
   } ]
